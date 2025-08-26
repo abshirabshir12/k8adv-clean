@@ -1,0 +1,16 @@
+FROM node:18-alpine
+
+WORKDIR /usr/src/app
+
+# Create a minimal package.json
+RUN echo '{"name":"the-app-hub","version":"1.0.0","main":"index.js","dependencies":{"express":"^4.18.2"}}' > package.json
+
+# Install dependencies
+RUN npm install --production
+
+# Copy app code (your index.js)
+COPY index.js . 
+
+EXPOSE 3000
+
+CMD ["node", "index.js"]

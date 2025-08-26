@@ -7,7 +7,7 @@ spec:
   project: default 
 
   source: 
-    repoURL: 'https://github.com/abshirabshir12/k8adv.git'
+    repoURL: 'https://github.com/abshirabshir12/k8adv-clean.git'
     targetRevision: HEAD 
     path: apps
 

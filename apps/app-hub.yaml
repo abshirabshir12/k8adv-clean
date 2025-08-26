@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: the-app-hub
-          image: abshirabshir/the-app-hub:22e0324
+          image:  abshirabshir/the-app-hub:latest
           ports: 
           - containerPort: 3000
 
