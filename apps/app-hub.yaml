@@ -18,7 +18,7 @@ spec:
         - name: the-app-hub
           image:  abshirabshir/the-app-hub:latest
           ports: 
-          - containerPort: 3000
+          - containerPort: 3001
 
 --- 
 apiVersion: v1 
