@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: the-app-hub
-          image:  abshirabshir/the-app-hub:latest
+          image: deneus12012/the-app-hub:latest
           ports: 
           - containerPort: 3001
 
